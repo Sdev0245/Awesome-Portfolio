@@ -5,7 +5,7 @@
     text-align: center;
     justify-self: center;
     width: 1100px;
-    
+    overflow: auto;
      
 }
 .main_container {

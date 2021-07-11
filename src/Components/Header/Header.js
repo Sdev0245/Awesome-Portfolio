@@ -38,7 +38,6 @@ const Header = ()=>{
                                Good experience in multithreaded code and Design Patterns. Worked on scalable systems and Timeseries Databases
                                like Timescale and influx.
                             </h3>
-                       
                         </div>
                         <div className={classes.media}>
                             <Media  name="Chess Engine" content={listContent.chess} img={chess} />
