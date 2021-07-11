@@ -49,4 +49,24 @@
     height: 50%;
     text-align: center;
 }
- 
+
+.avtar {
+
+    width: 150px;
+    height: 150px;
+    border: 2px solid wheat;
+    align-self: center;
+    margin-bottom: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.img {
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-image: url('../../images/avtar.gif');
+    width: 200px;
+    height: 200px;
+    margin-left: -20px;
+     
+}

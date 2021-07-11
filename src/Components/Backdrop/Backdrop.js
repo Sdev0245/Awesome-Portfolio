@@ -20,7 +20,7 @@ const Backdrop = (props)=>{
                 </div> 
                 <div className={classes.nav_items}>
                  <h2>
-                    AboutMe
+                    Blogs
                  </h2>
                 </div> 
                 <div className={classes.nav_items}>
