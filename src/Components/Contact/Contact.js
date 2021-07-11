@@ -12,6 +12,7 @@ const Contact = ()=>{
                             Please, provide your email and subscribe to my news letter,
                             <div>we can also exchange messages via mail.
                             </div>
+                            Please enter your mail
                         </p>
                     </div>
 
