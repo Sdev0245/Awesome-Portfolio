@@ -86,14 +86,24 @@
 
 .close h1 {
 
-    color: #8a8a8a; ;
+    color: #8a8a8a ;
     font-size: 6.15rem;
     font-weight: bolder;
     animation-name: shine;
     animation-iteration-count: infinite;
     animation-duration: 1s;
 }
+.link {
+    color: #8a8a8a ;
+    text-decoration: none;
+}
 
+a.active {
+    color: white;
+}
+a:hover {
+    color: white;
+}
 @keyframes shine {
         from {
             color:#8a8a8a

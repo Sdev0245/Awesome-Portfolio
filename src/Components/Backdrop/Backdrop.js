@@ -1,5 +1,5 @@
 import classes from './Backdrop.module.css';
-
+import {Link, NavLink} from 'react-router-dom';
 const Backdrop = (props)=>{
 
   
@@ -15,17 +15,17 @@ const Backdrop = (props)=>{
 
                <div className={classes.nav_items}>
                  <h2>
-                    Home
+                  <NavLink onClick={props.toggleBackdrop} activeClassName={classes.active} className={classes.link}  to="/" exact="true">  Home </NavLink>
                  </h2>
                 </div> 
                 <div className={classes.nav_items}>
                  <h2>
-                    Blogs
+                 <NavLink onClick={props.toggleBackdrop} activeClassName={classes.active}   className={classes.link}  to="/blogs">  Blogs </NavLink>
                  </h2>
                 </div> 
-                <div className={classes.nav_items}>
+                <div    className={classes.nav_items}>
                  <h2>
-                    Contact Me
+                 <NavLink  onClick={props.toggleBackdrop} activeClassName={classes.active} className={classes.link} to="/contact">   Contact Me </NavLink>  
                  </h2>
                 </div> 
 
