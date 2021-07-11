@@ -10,7 +10,7 @@ import ismy from '../../images/ismy.jpg'
 import live from '../../images/live.jpg'
 const Header = ()=>{
 
-    const listContent = {chess:['C++', 'CLang', 'Makefiles', 'Pruning', 'dynamic Prog'],
+    const listContent = {chess:['C++', 'C', 'Makefiles', 'A/B Pruning', 'dynamic Progamming'],
                          ecom:['Nodejs', 'React', 'Postgres', 'Yarn', 'docker', 'AWS'],
                          blockchain: ['Nodejs', 'Typescript', 'hyperledger', 'Parity', 'Kubernetes', 'Ansible'],
                          sinec: ['TCP/IP', 'SNMP', 'Docker', 'Kubernetes', 'Kafka', 'MQTT'],
@@ -37,6 +37,12 @@ const Header = ()=>{
                                HLS Protocol, to Audio Streaming, hands on in various Languages from C++ to Nodejs, Java to Python.
                                Good experience in multithreaded code and Design Patterns. Worked on scalable systems and Timeseries Databases
                                like Timescale and influx.
+                               
+                               <div>
+                                   <p>
+                                    <strong>  <span style={{fontWeight: "bold", color: "whitesmoke"}}> Hover</span> over the tiles for more info  </strong> 
+                                   </p>
+                               </div>
                             </h3>
                         </div>
                         <div className={classes.media}>
