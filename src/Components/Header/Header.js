@@ -29,14 +29,14 @@ const Header = ()=>{
                         </div>
                         <div className={classes.main_header}>
                             <h1>
-                                Hi I'am Deven Sharma, fullstack developer
+                                Hi I'am Deven Sharma
                             </h1>
                             <h3>
-                               I have been working on Backend development and little bit of frontend development, 
-                               worked on (Decentralized) Blockhain to distributed systems , Live Video Streaming using RTSP/RTMP and 
-                               HLS Protocol, to Audio Streaming, hands on in various Languages from C++ to Nodejs, Java to Python.
-                               Good experience in multithreaded code and Design Patterns. Worked on scalable systems and Timeseries Databases
-                               like Timescale and influx.
+                               I have been working on Backend development and little bit of frontend development, I
+                               worked from (Decentralized) Blockhain to distributed systems , Live Video Streaming using RTSP/RTMP and 
+                               HLS Protocol, to Audio Streaming, hands on in various Languages, from C++ to Nodejs, Java to Python.
+                               Good experience in multithreaded code and Design Patterns. Worked on timescale databases 
+                               like Timescale and influx. Handson in message queues like kafka and rabbitmq
                                
                                <div>
                                    <p>
