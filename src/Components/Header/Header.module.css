@@ -92,8 +92,11 @@
         flex-direction: column;
         flex-wrap: wrap;
         height: 20%;
+        justify-self: center;
+        align-self: center;
         text-align: center;
         margin-left: 4px;
         margin-right: 4px;
+        
     }
 }
