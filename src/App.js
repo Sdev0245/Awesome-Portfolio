@@ -5,19 +5,20 @@ import Header from './Components/Header/Header';
 import Footer from './Components/Footer/Footer';
 import Navbar from './Components/NavBar/Navbar'
 import Contact from './Components/Contact/Contact';
-import {Route} from 'react-router-dom';
+import {Route, Switch} from 'react-router-dom';
 
 function App() {
   return (
     <React.Fragment>
       <Navbar/>
-      <Route path="/contact" exact="true">
-         <Contact />
-      </Route>
-        <Route path="/" exact="true">
-          <Header/> 
+      <Switch>
+        <Route path="/contact">
+          <Contact />
         </Route>
- 
+          <Route path="/">
+            <Header/> 
+          </Route>
+    </Switch>
     </React.Fragment>
   );
 }
