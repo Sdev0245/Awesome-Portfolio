@@ -32,8 +32,8 @@ const Header = ()=>{
                                 Hi I'am Deven Sharma
                             </h1>
                             <h3>
-                               I have been working on Backend development and little bit of frontend development, I
-                               worked from (Decentralized) Blockhain to distributed systems , Live Video Streaming using RTSP/RTMP and 
+                               I have been working on Backend development and little bit of frontend development, I have
+                               worked on various technologies, from (Decentralized) Blockhain to distributed systems , Live Video Streaming using RTSP/RTMP and 
                                HLS Protocol, to Audio Streaming, hands on in various Languages, from C++ to Nodejs, Java to Python.
                                Good experience in multithreaded code and Design Patterns. Worked on timescale databases 
                                like Timescale and influx. Handson in message queues like kafka and rabbitmq
