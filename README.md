@@ -1,4 +1,4 @@
 # My Awesome Portfolio
 
 
-## Hi all this is my portfolio website, Do let me how you like it .
+### Hi all, I am Deven Sharma FullStack developer.
